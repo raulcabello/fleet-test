@@ -1,0 +1,41 @@
+defaultNamespace: chaos-testing
+helm:
+  releaseName: chaos-mesh
+  chart: chaos-mesh
+  repo: https://charts.chaos-mesh.org
+  values:
+    dashboard:
+      create: true
+      ingress:
+        enabled: true
+        certManager: true
+        hosts:
+          - name: "chaos-dashboard.domain.tld"
+            tls: true
+            tlsSecret: chaos-dashboard-tls
+    webhook:
+      certManager:
+        enabled: true
+diff:
+  comparePatches:
+    - apiVersion: admissionregistration.k8s.io/v1beta1
+      kind: MutatingWebhookConfiguration
+      name: chaos-mesh-mutation
+      jsonPointers:
+        - "/webhooks"
+    - apiVersion: admissionregistration.k8s.io/v1beta1
+      kind: ValidatingWebhookConfiguration
+      name: chaos-mesh-validation
+      jsonPointers:
+        - "/webhooks"
+    - apiVersion: admissionregistration.k8s.io/v1beta1
+      kind: ValidatingWebhookConfiguration
+      name: validate-auth
+      jsonPointers:
+        - "/webhooks"
+    - apiVersion: cert-manager.io/v1alpha2
+      kind: Certificate
+      name: chaos-mesh-cert
+      namespace: chaos-testing
+      jsonPointers:
+        - "/spec/duration"
