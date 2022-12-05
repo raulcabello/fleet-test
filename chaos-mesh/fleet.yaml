@@ -44,6 +44,7 @@ diff:
       namespace: chaos-testing
       jsonPointers:
         - "/spec/duration"
+        - "/spec/isCA"
     - apiVersion: cert-manager.io/v1alpha2
       kind: Certificate
       name: chaos-daemon-cert
