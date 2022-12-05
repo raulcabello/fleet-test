@@ -1,5 +1,5 @@
 defaultNamespace: harbor
 helm:
   releaseName: harbor
-  chart: harbor/harbor
+  chart: harbor
   repo: https://helm.goharbor.io
