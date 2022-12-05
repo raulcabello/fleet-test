@@ -4,7 +4,7 @@ metadata:
   annotations:
     # add an annotation indicating the issuer to use.
     cert-manager.io/cluster-issuer: chaos-mesh-ca
-  name: myIngress
+  name: myingress2
   namespace: chaos-testing
 spec:
   rules:
