@@ -10,4 +10,4 @@ diff:
     name: harbor-database
     namespace: harbor
     operations:
-    - {"op": "remove", "path": "/spec/template/spec/volumens"}
+    - {"op": "remove", "path": "/spec/template/spec/volumes"}
