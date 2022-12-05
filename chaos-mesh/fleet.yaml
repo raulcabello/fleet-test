@@ -33,9 +33,26 @@ diff:
       name: validate-auth
       jsonPointers:
         - "/webhooks"
+    - apiVersion: admissionregistration.k8s.io/v1beta1
+      kind: ValidatingWebhookConfiguration
+      name: chaos-mesh-validation-auth
+      jsonPointers:
+        - "/webhooks"
     - apiVersion: cert-manager.io/v1alpha2
       kind: Certificate
       name: chaos-mesh-cert
       namespace: chaos-testing
       jsonPointers:
         - "/spec/duration"
+    - apiVersion: cert-manager.io/v1alpha2
+      kind: Certificate
+      name: chaos-daemon-cert
+      namespace: chaos-testing
+      jsonPointers:
+        - "/spec/isCA"
+    - apiVersion: cert-manager.io/v1alpha2
+      kind: Certificate
+      name: chaos-daemon-client-cert
+      namespace: chaos-testing
+      jsonPointers:
+        - "/spec/isCA"
