@@ -3,9 +3,9 @@ kind: Ingress
 metadata:
   annotations:
     # add an annotation indicating the issuer to use.
-    cert-manager.io/cluster-issuer: chaos-mesh-ca
+    cert-manager.io/cluster-issuer: selfsigned-issuer
   name: myingress2
-  namespace: chaos-testing
+  namespace: default
 spec:
   rules:
   - host: example.com
