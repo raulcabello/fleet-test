@@ -6,7 +6,7 @@ metadata:
   finalizers:
   - k8s
 spec:
-  secretName: acme-crt-secret
+  secretName: acme-crt-secret-final
   dnsNames:
   - example.com
   - foo.example.com
