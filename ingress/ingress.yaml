@@ -4,7 +4,7 @@ metadata:
   annotations:
     # add an annotation indicating the issuer to use.
     cert-manager.io/cluster-issuer: selfsigned-issuer
-  name: myingress2
+  name: myingress21
   namespace: default
 spec:
   rules:
