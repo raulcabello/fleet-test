@@ -1,0 +1,4 @@
+helm:
+  releaseName: local
+  chart: local
+  repo: http://localhost:3000 
