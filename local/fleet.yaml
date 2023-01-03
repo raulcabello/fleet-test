@@ -1,4 +1,4 @@
 helm:
   releaseName: local
   chart: local
-  repo: http://localhost:3000 
+  repo: http://host.minikube.internal:3000 
