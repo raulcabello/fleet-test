@@ -1,4 +1,4 @@
 helm:
-  releaseName: local
-  chart: local
+  releaseName: local/testrepo
+  chart: local/testrepo
   repo: http://host.minikube.internal:3000 
