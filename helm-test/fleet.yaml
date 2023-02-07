@@ -1,0 +1,4 @@
+helm:
+  releaseName: test
+  chart: test
+  repo: https://9280-81-38-162-255.eu.ngrok.io/
