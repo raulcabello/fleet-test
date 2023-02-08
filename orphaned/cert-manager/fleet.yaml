@@ -1,0 +1,12 @@
+defaultNamespace: cert-manager
+helm:
+  releaseName: cert-manager
+  chart: cert-manager
+  repo: "https://charts.jetstack.io"
+  values:
+    extraArgs:
+      - '--enable-certificate-owner-ref=true'
+    installCRDs: true
+    ingressShim:
+      defaultIssuerName: letsencrypt-prod
+      defaultIssuerKind: ClusterIssuer
