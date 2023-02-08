@@ -1,4 +1,3 @@
-defaultNamespace: chaos-testing
 helm:
   releaseName: chaos-mesh
   chart: chaos-mesh
