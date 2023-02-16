@@ -1,4 +1,4 @@
 namespace: jobtest
 helm:
-  waitForJob: true
+  waitForJobs: true
   timeoutSeconds: 120
