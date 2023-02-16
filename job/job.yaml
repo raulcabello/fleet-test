@@ -9,4 +9,4 @@ spec:
       containers:
       - name: alpine
         image: alpine
-        command: ["sleep", "60"]
+        command: ["sleep", "30"]
