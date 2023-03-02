@@ -1,0 +1,8 @@
+diff:
+  comparePatches:
+  - apiVersion: keda.sh/v1alpha1
+    kind: ScaledObject
+    name: rabbitmq-consumer
+    operations:
+    - {"op":"remove", "path":"/status/conditions"}
+    
