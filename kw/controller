@@ -1,0 +1,5 @@
+defaultNamespace: kubewarden
+helm:
+  releaseName: kubewarden-controller
+  chart: kubewarden-controller
+  repo: https://charts.kubewarden.io
