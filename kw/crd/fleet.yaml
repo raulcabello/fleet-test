@@ -4,4 +4,4 @@ helm:
   chart: kubewarden-crds
   repo: https://charts.kubewarden.io
 labels:
-  key: valuetest
+  key: valuetestchanged
