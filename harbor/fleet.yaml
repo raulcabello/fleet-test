@@ -3,6 +3,9 @@ helm:
   releaseName: harbor
   chart: harbor
   repo: https://helm.goharbor.io
+  values:
+    nginx:
+       replicas: 4
 diff:
   comparePatches:
   - apiVersion: apps/v1
