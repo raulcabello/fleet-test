@@ -5,7 +5,7 @@ helm:
   repo: https://helm.goharbor.io
   values:
     nginx:
-       replicas: 2
+       replicas: 3
 diff:
   comparePatches:
   - apiVersion: apps/v1
