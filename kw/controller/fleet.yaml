@@ -1,7 +1,7 @@
 defaultNamespace: kubewarden
 helm:
-  releaseName: kubewarden-crds
-  chart: kubewarden-crds
+  releaseName: kubewarden-controller
+  chart: kubewarden-controller
   repo: https://charts.kubewarden.io
 labels:
   key: valuetestchanged
