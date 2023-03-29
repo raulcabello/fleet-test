@@ -5,3 +5,9 @@ helm:
   repo: https://grafana.github.io/helm-charts
 labels:
   key: valuetestchanged
+targetCustomizations:
+- name: c1
+  clusterGroup: cg1
+  helm: 
+    values:
+      replicas: 2
