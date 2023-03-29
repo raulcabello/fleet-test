@@ -7,7 +7,7 @@ labels:
   key: valuetestchanged
 targetCustomizations:
 - name: c1
-  clusterGroup: cg1
+  clusterGroup: all
   helm: 
     values:
       replicas: 2
