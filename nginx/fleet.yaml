@@ -1,0 +1,7 @@
+defaultNamespace: nginx
+helm:
+  releaseName: nginx-ingress
+  chart: nginx-ingress
+  repo: https://helm.nginx.com/stable
+labels:
+  key: valuetestchanged
