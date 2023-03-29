@@ -11,3 +11,9 @@ targetCustomizations:
   helm: 
     values:
       replicas: 2
+targetCustomizations:
+- name: cc1
+  clusterGroup: c1
+  helm: 
+    values:
+      replicas: 1
