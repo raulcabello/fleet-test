@@ -16,4 +16,4 @@ targetCustomizations:
   clusterGroup: c1
   helm: 
     values:
-      replicas: 1
+      replicas: 3
