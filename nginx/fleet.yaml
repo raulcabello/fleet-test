@@ -6,11 +6,6 @@ helm:
 labels:
   key: valuetestchanged
 targetCustomizations:
-- name: all
-  clusterGroup: all
-  helm: 
-    values:
-      replicas: 2
 - name: down1
   clusterGroup: down1
   helm: 
