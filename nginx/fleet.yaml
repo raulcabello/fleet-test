@@ -7,12 +7,12 @@ labels:
   key: valuetestchanged
 targetCustomizations:
 - name: down1
-  clusterGroup: one
+  group: one
   helm: 
     values:
       replicas: 3
 - name: all
-  clusterGroup: all
+  group: all
   helm: 
     values:
       replicas: 2
