@@ -7,7 +7,7 @@ labels:
   key: valuetestchanged
 targetCustomizations:
 - name: down1
-  group: one
+  group: cg1
   helm: 
     values:
       replicas: 3
