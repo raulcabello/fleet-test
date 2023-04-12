@@ -10,12 +10,12 @@ targetCustomizations:
   clusterGroup: cg1
   helm: 
     values:
-      replicas: 5
+      replicas: 3
 - name: down2
   clusterGroup: cg2
   helm: 
     values:
-      replicas: 4
+      replicas: 2
 
 
 
