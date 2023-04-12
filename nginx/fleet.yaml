@@ -11,11 +11,6 @@ targetCustomizations:
   helm: 
     values:
       replicas: 5
-- name: all
-  clusterGroup: all
-  helm: 
-    values:
-      replicas: 2
 - name: down2
   clusterGroup: cg2
   helm: 
