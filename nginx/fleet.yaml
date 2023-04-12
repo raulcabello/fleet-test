@@ -10,7 +10,7 @@ targetCustomizations:
   clusterGroup: cg1
   helm: 
     values:
-      replicas: 3
+      replicas: 5
 - name: all
   clusterGroup: all
   helm: 
