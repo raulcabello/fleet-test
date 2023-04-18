@@ -5,4 +5,7 @@ diff:
     name: rabbitmq-consumer
     operations:
     - {"op":"remove", "path":"/status/conditions"}
-    
+ignoreConditions:
+  Conditions:
+  - type: Active
+
