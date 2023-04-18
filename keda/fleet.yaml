@@ -6,6 +6,6 @@ diff:
     operations:
     - {"op":"remove", "path":"/status/conditions"}
 ignoreConditions:
-  Conditions:
+  conditions:
    - type: "Active"
 
