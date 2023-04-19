@@ -8,5 +8,5 @@ diff:
 ignore:
   conditions:
    - type: Active2
-     status: False
+     status: "False"
 
