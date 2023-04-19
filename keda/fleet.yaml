@@ -7,6 +7,6 @@ diff:
     - {"op":"remove", "path":"/status/conditions"}
 ignore:
   conditions:
-   - type: Active2
+   - type: Active
      status: "False"
 
