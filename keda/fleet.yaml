@@ -7,6 +7,7 @@ diff:
     - {"op":"remove", "path":"/status/conditions"}
 ignore:
   conditions:
-   - type: Activew
+   - type: Active
      status: "False"
+     reason: ScalerNotActive
 
