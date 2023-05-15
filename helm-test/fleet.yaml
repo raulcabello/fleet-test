@@ -1,4 +1,11 @@
 helm:
   releaseName: test
-  chart: test
-  repo: https://ba32-79-144-231-216.eu.ngrok.io/
+  chart: loki
+  repo: https://grafana.github.io/helm-charts
+  values:
+    loki:
+      storage:
+        type: s3
+        s3:
+          s3: "s3://${S3_ACCESS_KEY}:${S3_SECRET_ACCESS_KEY}@bucketname/"
+
