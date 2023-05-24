@@ -1,0 +1,4 @@
+helm:
+  releaseName: test2
+  chart: test
+  repo: https://5cf3-79-144-228-62.ngrok-free.app
