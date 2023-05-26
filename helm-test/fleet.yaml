@@ -1,5 +1,5 @@
 helm:
   releaseName: test1
   chart: test
-  repo: https://c061-79-144-228-62.ngrok-free.app
+  repo: b7cb-81-38-161-191.ngrok-free.app
 
