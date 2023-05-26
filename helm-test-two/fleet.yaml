@@ -2,4 +2,4 @@ namespace: two
 helm:
   releaseName: test2
   chart: test
-  repo: https://dcde-79-144-228-62.ngrok-free.app
+  repo: https://0118-81-38-161-191.ngrok-free.app
