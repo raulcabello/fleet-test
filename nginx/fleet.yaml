@@ -9,7 +9,7 @@ targetCustomizations:
 - name: dev
   clusterSelector:
     matchLabels:
-      env: dev
+      env: test
   doNotDeploy: true
 
 
