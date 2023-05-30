@@ -10,6 +10,8 @@ targetCustomizations:
   clusterSelector:
     matchLabels:
       env: test
+  doNotDeploy: true
+
 
 
 
