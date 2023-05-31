@@ -10,10 +10,6 @@ targetCustomizations:
   clusterSelector:
     matchLabels:
       env: test
-overrideTargets:
-- clusterSelector:
-     matchLabels:
-        env: test2
 
 
 
