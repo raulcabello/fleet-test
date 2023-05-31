@@ -10,6 +10,9 @@ targetCustomizations:
   clusterSelector:
     matchLabels:
       env: test
+  helm: 
+    values:
+      replicas: 3
 
 
 
