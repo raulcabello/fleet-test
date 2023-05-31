@@ -2,7 +2,7 @@ defaultNamespace: nginx
 overrideTargets:
 - clusterSelector:
      matchLabels:
-        env: test2
+        env: test
 helm:
   releaseName: grafana
   chart: grafana
