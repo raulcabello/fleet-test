@@ -1,4 +1,8 @@
 defaultNamespace: nginx
+overrideTargets:
+- clusterSelector:
+     matchLabels:
+        env: test2
 helm:
   releaseName: grafana
   chart: grafana
