@@ -11,6 +11,7 @@ labels:
   key: valuetestchanged
 targetCustomizations:
 - name: dev
+  doNotDeploy: true
   clusterSelector:
     matchLabels:
       env: test
