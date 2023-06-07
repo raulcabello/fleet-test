@@ -2,7 +2,8 @@ defaultNamespace: skip
 overrideTargets:
 - clusterSelector:
      matchLabels:
-        env: test
+        name: local
+        #env: test
 helm:
   releaseName: grafana
   chart: grafana
