@@ -6,7 +6,7 @@ helm:
   repo: https://grafana.github.io/helm-charts
 targetCustomizations:
 - name: test
-  #doNotDeploy: true
+  doNotDeploy: true
   clusterSelector:
     matchLabels:
       env: test
