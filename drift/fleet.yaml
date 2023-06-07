@@ -1,5 +1,15 @@
-defaultNamespace: grafana
+defaultNamespace: nginx
 helm:
   releaseName: grafana
   chart: grafana
   repo: https://grafana.github.io/helm-charts
+labels:
+  key: valuetestchanged
+targetCustomizations:
+- name: dev
+  clusterSelector:
+    matchLabels:
+      env: test
+  helm: 
+    values:
+      replicas: 3
