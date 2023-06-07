@@ -2,9 +2,15 @@ defaultNamespace: skip
 overrideTargets:
 - clusterSelector:
      matchLabels:
-        name: local
-        #env: test
+        #name: local
+        env: test
 helm:
   releaseName: grafana
   chart: grafana
   repo: https://grafana.github.io/helm-charts
+targetCustomizations:
+- name: test
+  doNotDeploy: true
+  clusterSelector:
+    matchLabels:
+      env: test
