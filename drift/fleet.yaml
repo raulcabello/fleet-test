@@ -1,15 +1,15 @@
-defaultNamespace: nginx
+namespace: fleet-helm-oci-with-auth-example
+
 helm:
-  releaseName: grafana
-  chart: grafana
-  repo: https://grafana.github.io/helm-charts
-labels:
-  key: valuetestchanged
-targetCustomizations:
-- name: dev
-  clusterSelector:
-    matchLabels:
-      env: test
-  helm: 
-    values:
-      replicas: 3
+  releaseName: sleeper-chart
+
+  repo: "https://zot-service.fleet-local.svc.cluster.local:5000/sleeper-chart"
+
+  version: "0.1.0"
+
+  force: false
+
+  timeoutSeconds: 0
+
+  values:
+    replicas: 2
