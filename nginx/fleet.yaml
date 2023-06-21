@@ -9,6 +9,10 @@ helm:
   repo: https://grafana.github.io/helm-charts
 labels:
   key: valuetestchanged
+namespaceLabels:
+  foo: nschang
+namespaceAnnotations:
+  test: ann1
 targetCustomizations:
 - name: dev
   clusterSelector:
