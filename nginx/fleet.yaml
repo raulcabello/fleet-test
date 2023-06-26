@@ -10,7 +10,9 @@ helm:
 labels:
   key: valuetestchanged
 namespaceLabels:
-  foo: nschang
+  foo: nschang22
+namespaceAnnotations:
+  anno: changed
 targetCustomizations:
 - name: dev
   clusterSelector:
