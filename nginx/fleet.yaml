@@ -8,7 +8,7 @@ helm:
   chart: grafana
   repo: https://grafana.github.io/helm-charts
 labels:
-  key: valuetestchanged
+  key: valuetestchanged2
 namespaceLabels:
   foo: nschang22
 namespaceAnnotations:
@@ -20,7 +20,7 @@ targetCustomizations:
       env: test
   helm: 
     values:
-      replicas: 3
+      replicas: 1
 
 
 
