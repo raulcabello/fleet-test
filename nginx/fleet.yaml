@@ -10,6 +10,7 @@ helm:
 labels:
   key: valuetestchanged2
 namespaceAnnotations: {}
+namespaceLabels: {}
 targetCustomizations:
 - name: dev
   clusterSelector:
