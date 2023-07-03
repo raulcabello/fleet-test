@@ -10,7 +10,6 @@ helm:
 labels:
   key: valuetestchanged2
 namespaceLabels:
-  foo: nschanged1
   a: b
 targetCustomizations:
 - name: dev
