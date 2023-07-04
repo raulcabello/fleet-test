@@ -7,6 +7,11 @@ helm:
   releaseName: grafana
   chart: grafana
   repo: https://grafana.github.io/helm-charts
+namespaceLabels:
+  key: valueL
+#
+namespaceAnnotations:
+  keyA: valueA
 labels:
   key: valuetestchanged2
 targetCustomizations:
