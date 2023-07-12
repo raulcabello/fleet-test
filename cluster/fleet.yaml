@@ -1,5 +1,4 @@
 helm:
   values:
-    region: "${ .ClusterLabels.region }"
-    regionAnn: "${ .ClusterAnnotations.region }"
+    region: "${ .ClusterAnnotations.region }"
 
