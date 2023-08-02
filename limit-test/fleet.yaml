@@ -20,4 +20,52 @@ targetCustomizations:
   helm:
     repo: https://charts.external-secrets.io
     version: 0.8.0
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.0
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.1
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.2
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.8.0
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.0
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.1
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.2
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.8.0
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.0
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.1
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.2
+- clusterName: down
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.8.0
 
