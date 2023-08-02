@@ -19,5 +19,5 @@ targetCustomizations:
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
-    version: 0.7.3
+    version: 0.8.0
 
