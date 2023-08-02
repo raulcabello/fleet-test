@@ -4,10 +4,10 @@ helm:
   chart: external-secrets
   version: 0.8.5
 targetCustomizations:
-- clusterName: dev
+- clusterName: down
   repo: https://charts.external-secrets.io
   version: 0.8.5
-- clusterName: dev
+- clusterName: down
   repo: https://charts.external-secrets.io
   version: 0.8.5
 
