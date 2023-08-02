@@ -1,71 +1,10 @@
 namespace: fleet-mc-helm-external-example
 helm:
-  repo: https://charts.external-secrets.io
-  chart: external-secrets
-  version: 0.8.5
+  repo: https://charts.rancher.io
+  chart: rancher-monitoring
+  version: 100.1.3+up19.0.3
 targetCustomizations:
 - clusterName: down
   helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.0
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.1
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.2
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.0
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.0
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.1
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.2
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.0
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.9.0
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.1
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.2
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.3
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.5
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.1
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.7.2
-- clusterName: down
-  helm:
-    repo: https://charts.external-secrets.io
-    version: 0.8.0
-
+    repo: https://charts.rancher.io
+    version: 100.1.2+up19.0.3
