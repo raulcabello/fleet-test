@@ -5,9 +5,11 @@ helm:
   version: 0.8.5
 targetCustomizations:
 - clusterName: down
-  repo: https://charts.external-secrets.io
-  version: 0.7.0
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.0
 - clusterName: down
-  repo: https://charts.external-secrets.io
-  version: 0.7.1
+  helm:
+    repo: https://charts.external-secrets.io
+    version: 0.7.1
 
