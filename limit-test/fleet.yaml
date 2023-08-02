@@ -39,23 +39,23 @@ targetCustomizations:
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
-    version: 0.7.0
+    version: 0.9.0
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
-    version: 0.7.1
+    version: 0.8.1
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
-    version: 0.7.2
+    version: 0.8.2
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
-    version: 0.8.0
+    version: 0.8.3
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
-    version: 0.7.0
+    version: 0.8.5
 - clusterName: down
   helm:
     repo: https://charts.external-secrets.io
