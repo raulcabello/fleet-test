@@ -1,4 +1,4 @@
-namespace: fleet-mc-helm-external-example
+defaultNamespace: fleet-mc-helm-external-example
 helm:
   repo: https://charts.external-secrets.io
   chart: external-secrets
