@@ -14,7 +14,6 @@ labels:
   key: valuetestchangedSS2
 targetCustomizations:
 - name: dev
-  doNotDeploy: true
   clusterSelector:
     matchLabels:
       env: test
