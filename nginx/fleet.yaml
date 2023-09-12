@@ -19,7 +19,7 @@ targetCustomizations:
       env: test
   helm: 
     values:
-      replicas: 1
+      replicas: 3
 
 
 
