@@ -3,7 +3,5 @@ helm:
   releaseName: grafana
   chart: grafana
   repo: https://grafana.github.io/helm-charts
-targetCustomizations:
-  helm: 
-    values:
-      replicas: 1
+  values:
+    replicas: 1
