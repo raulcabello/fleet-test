@@ -4,6 +4,7 @@ metadata:
   labels:
     pod-security.kubernetes.io/enforce: restricted
     pod-security.kubernetes.io/enforce-version: latest
+    foo: test12
   name: ns-test2
   annotations:
       "helm.sh/resource-policy": keep
