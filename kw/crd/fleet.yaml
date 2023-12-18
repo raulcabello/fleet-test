@@ -5,4 +5,4 @@ helm:
   repo: https://charts.kubewarden.io
 labels:
   key: valuetestchanged
-deleteCRDResources: true
+deleteCRDResources: false
