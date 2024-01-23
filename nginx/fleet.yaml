@@ -1,8 +1,4 @@
 defaultNamespace: nginx
-overrideTargets:
-- clusterSelector:
-     matchLabels:
-        env: test
 helm:
   releaseName: grafana
   chart: grafana
@@ -12,19 +8,3 @@ namespaceLabels:
 namespaceAnnotations: {}
 labels:
   key: valuetestchangedSS2
-targetCustomizations:
-- name: dev
-  clusterSelector:
-    matchLabels:
-      env: test
-  helm: 
-    values:
-      replicas: 3
-
-
-
-
-
-
-
-
